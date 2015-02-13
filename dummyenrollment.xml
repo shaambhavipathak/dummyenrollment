@@ -1,5 +1,129 @@
 <?xml version="1.0"?>
+
+<!--Views for dummy enrollment system -->
+
 <tryton>
     <data>
+
+<!--Party form -->
+        <record model="ir.ui.view" id="party_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+        </record>
+
+<!--Personal Details tree -->
+
+        <record model="ir.ui.view" id="personal_details_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">personal_details_tree</field>
+        </record>
+
+<!--Personal Details form -->
+
+        <record model="ir.ui.view" id="personal_details_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">personal_details_form</field>
+        </record>
+
+<!--Card Details tree -->
+
+        <record model="ir.ui.view" id="card_details_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">card_details_tree</field>
+        </record>
+
+<!--Card Details form -->
+
+        <record model="ir.ui.view" id="card_details_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">card_details_form</field>
+        </record>
+
+<!--Educational Backgroud tree -->
+       
+        <record model="ir.ui.view" id="educational_background_view_tree">
+            <field name="model">party.educational_background</field>
+            <field name="inherit" ref="party.educational_background_view_tree"/>
+            <field name="name">educational_background_tree</field>
+        </record>
+
+<!--Educational Backgroud form -->
+
+
+        <record model="ir.ui.view" id="educational_background_view_form">
+            <field name="model">party.educational_background</field>
+            <field name="inherit" ref="party.educational_background_view_form"/>
+            <field name="name">educational_background_form</field>
+        </record>
+
+
+<!--Prior Experience tree -->
+
+        <record model="ir.ui.view" id="prior_experience_view_tree">
+            <field name="model">party.prior_experience</field>
+            <field name="inherit" ref="party.prior_experience_view_tree"/>
+            <field name="name">prior_experience_tree</field>
+        </record>
+
+<!--Prior Experience form -->
+
+        <record model="ir.ui.view" id="prior_experience_view_form">
+            <field name="model">party.prior_experience</field>
+            <field name="inherit" ref="party.prior_experience_view_form"/>
+            <field name="name">prior_experience_form</field>
+        </record>
+
+<!--Skill Set tree -->
+
+        <record model="ir.ui.view" id="skill_set_view_tree">
+            <field name="model">party.skill_set</field>
+            <field name="inherit" ref="party.skill_set_view_tree"/>
+            <field name="name">skill_set_tree</field>
+        </record>
+
+<!--Skill Set form -->
+
+        <record model="ir.ui.view" id="skill_set_view_form">
+            <field name="model">party.skill_set</field>
+            <field name="inherit" ref="party.skill_set_view_form"/>
+            <field name="name">skill_set_form</field>
+        </record>
+
+<!--Family Details tree -->
+
+       <record model="ir.ui.view" id="family_details_view_tree">
+            <field name="model">party.family_details</field>
+            <field name="inherit" ref="party.family_details_view_tree"/>
+            <field name="name">family_details_tree</field>
+        </record>
+
+<!--Family Details form -->
+
+        <record model="ir.ui.view" id="family_details_view_form">
+            <field name="model">party.familydetails</field>
+            <field name="inherit" ref="party.family_details_view_form"/>
+            <field name="name">family_details_form</field>
+        </record>
+
+<!--Medical Issues tree -->
+
+        <record model="ir.ui.view" id="medical_issues_view_tree">
+            <field name="model">party.medical_issues</field>
+            <field name="inherit" ref="party.medical_issuess_view_tree"/>
+            <field name="name">medical_issues_tree</field>
+        </record>
+
+<!--Medical Issues form -->
+
+        <record model="ir.ui.view" id="medical_issues_view_form">
+            <field name="model">party.medical_issues</field>
+            <field name="inherit" ref="party.medical_issues_view_form"/>
+            <field name="name">medical_issues_form</field>
+        </record>
     </data>
 </tryton>

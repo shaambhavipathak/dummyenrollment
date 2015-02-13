@@ -1,0 +1,9 @@
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="Education" id="party">
+            <field name="educational_qualifications" colspan="6"/>
+            <field name="prior_experience" colspan="6"/>
+            <field name="skill_set" colspan="6"/>
+        </page>
+    </xpath>
+</data>
